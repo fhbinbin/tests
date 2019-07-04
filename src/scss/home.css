@@ -1,0 +1,28 @@
+.home {
+  font-size: 20px;
+}
+
+.home .list li {
+  list-style: none;
+  color: red;
+}
+
+.home #pagination ul li {
+  display: inline-block;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.home #pagination ul .active {
+  color: #fff;
+  background: blue;
+}
+
+.home #pagination ul .disabled {
+  background: #ddd;
+  color: #aaa;
+}
